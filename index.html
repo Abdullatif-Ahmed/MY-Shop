@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYShop</title>
+    <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="shortcut icon" href="images/logo.png"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <script src="html5shiv.min.js"></script>
+
+</head>
+<body>
+    <div class="page-wrapper">
+        <header>
+            <section class="top-header pd-section">
+                <div class="container">
+                    <div class="top-header-content">
+                        <P class="cust-support">Customer support: 01273968617 </P>
+                        <div class="top-menu">
+                            <a class="linkes" href="#">linkes <i class="fas fa-chevron-down"></i> </a>
+                            <ul>
+                                <li>
+                                    <div class="header-dropdown">
+                                        <a href="#">USD <i class="fas fa-chevron-down"></i></a>
+                                        <ul class="header-menu">
+                                            <li>
+                                                <a href="#">Eur</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Usd</a>
+                                            </li>
+        
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="header-dropdown">
+                                        <a href="#">English <i class="fas fa-chevron-down"></i></a>
+                                        <ul class="header-menu">
+                                            <li>
+                                                <a href="#">English</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Arabic</a>
+                                            </li>
+        
+                                        </ul>
+                                    </div>
+                                
+                                </li>
+                                <li>
+                                <a class="sign" href="Login.html">Sign in / Sign Up</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="middle-header pd-section">
+                <div class="container">
+                    <div class="middle-header-content">
+                      
+                        <div id="logo">
+                            <label class="open" for="check">
+                                <i class="fas fa-bars"></i>
+                            </label>
+                        <a href="index.html">
+                            <figure>
+                                <img src="images/logo.png" alt="My Shop">
+                            </figure> 
+                        </a>
+                        </div>
+
+                        <div class="header-search">
+                            <form action="#" class="search-form">
+                                <input type="search" name="search" placeholder="search product ..." required >
+                                <button type="submit" id > 
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+
+                        <div class="middle-header-right">
+                            <ul>
+                                <li class="account">
+                                    <a href="#">
+                                        <div class="icon">
+                                        <i class="far fa-user"></i>
+                                        </div> 
+                                        <p>account</p>
+                                    </a>
+
+                                </li>
+                                <li class="wishlist">
+                                    <a href="#">
+                                        <div class="icon">
+                                            <i class="far fa-heart"></i>
+                                            <span class="wishlist-count">0</span>
+                                        </div>
+                                        <p>wishlist</p>
+                                    </a>
+
+                                </li>
+                                <li class="cart">
+                                    <a href="#">
+                                        <div class="icon">
+
+                                            <i class="fas fa-shopping-bag"></i>
+                                        
+                                            <span class="cart-count">0</span>
+
+                                        </div> 
+
+                                        <p>cart</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="bottom-header pd-section">
+                <div class="container">
+                    <div class="bottom-header-content">
+                        <div class="category-dropdown">
+                            <a class="browse-categories" href="#"><i class="fas fa-bars"></i>browse categories </a>
+                            <ul class="dropdown-menu">
+                        
+                                <li><a href="Shop/furniture.html">furniture</a></li>
+                                <li><a href="Shop/Home decor.html">home decor</a></li>
+                                <li><a href="Shop/furniture/sofa.html">sofa</a></li>
+                                <li><a href="Shop/Home decor/Lighting.html">Lighting</a></li>
+                                <li><a href="Shop/furniture/chair.html">chair</a></li>
+                               
+                            
+                            </ul>
+                        </div>
+                    
+                    
+                        <nav>
+                            <ul>
+                                <li><a href="index.html" style="color: var(--main-color)">Home</a></li>
+                                <li><a href="Shop.html">Shop</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="Login.html">login</a></li>
+                            </ul>
+                        </nav>
+
+
+                    </div>
+                </div>
+            </section>
+
+
+        </header>
+        <section class="home-slider">
+            <div class="overlay"></div>
+            <div class="home-slider-content">
+              
+                
+                <div class="text">
+                    <h1> Up to 50% off for 2021 collections</h1>
+                    <p>hurry up to grab your favourite items!</p>
+                    <div class="button">
+                        <a href="#"> <button>view items on sale</button></a>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+        <section class="collection ">
+
+            <div class="collection-content">
+
+                <div class="collection-item collection-item1">
+                    <div class="overlay"></div>
+                    <div class="item-content">
+                        <p class="text1">new sofas collection</p>
+                        <p class="text2"> new forms & materials</p>
+                        <a class="button" href="#">
+                            <button class="btn-style1">shop now</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="collection-item collection-item2">
+                    <div class="overlay"></div>
+                    <div class="item-content">
+                        <p class="text1">home decor collection</p>
+                        <p class="text2"> exclusive trendy items</p>
+                        <a class="button" href="#">
+                            <button class="btn-style1">shop now</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="collection-item collection-item3">
+                    <div class="overlay"></div>
+                    <div class="item-content">
+                        <p class="text1">sign up now & get 10% off</p>
+                        <p class="text2"> be the first ro know about new arrivals and exclusive offers.</p>
+                        <a class="button" href="#">
+                            <button class="btn-style2">sign up now</button>
+                        </a>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </section>
+        <section class="new-items common-section ">
+            <div class="container">
+                <h2 class="common-heading">new items</h2>
+                
+                <div class="new-items-content common-row">
+
+                        <div class="item common-row-item item-pd">
+                           <figure>
+                               <a class="item-imgs" href="#">
+                                    <span class="sale"> sale!</span>
+                                    <img class="img1" src="https://the7.io/elementor-shop/wp-content/uploads/sites/79/2020/10/es0045-600x800.jpg">  
+                                    <img class="img2" src="https://the7.io/elementor-shop/wp-content/uploads/sites/79/2020/10/es0046-600x800.jpg">
+                                    
+                                </a>
+                                <a href="#" class="add-to-cart">
+                                    <span class="add-to-cart-popup">add to cart</span>
+                                    <i class="fas fa-shopping-bag icon"></i>
+                                </a>
+                               
+                               <figcaption>
+                                   <h4 class="item-title">
+                                    <a title="wooden frame mirror" href="#">Wooden frame mirror</a>
+
+                                   </h4>
+                               </figcaption>
+                           </figure>
+                           <div class="item-bottom">
+                                <span class="price "><span>$</span>14.00</span>
+                                <div class="rating ">
+                                    <i class="fas fa-star star1"></i>
+                                    <i class="fas fa-star star2"></i>
+                                    <i class="fas fa-star star3"></i>
+                                    <i class="fas fa-star star4"></i>
+                                    <i class="fas fa-star star5"></i>
+                                </div>
+                            </div>
+                           
+                        </div>
+
+                        
+                        <div class="item common-row-item item-pd">
+                            <figure>
+                                <a class="item-imgs" href="#">
+                                    <span class="sale"> sale!</span>
+                                    <img class="img1" src="https://the7.io/elementor-shop/wp-content/uploads/sites/79/2021/01/es00114-600x800.jpg"> 
+                                    <img class="img2" src="https://the7.io/elementor-shop/wp-content/uploads/sites/79/2021/01/es0010103-600x800.jpg"> 
+                                </a>
+                                <a href="#" class="add-to-cart">
+                                    <span class="add-to-cart-popup">add to cart</span>
+                                    <i class="fas fa-shopping-bag icon"></i>
+                                </a>
+                                <figcaption>
+                                    <h4 class="item-title">
+                                     <a title="glss vase" href="#">glss vase</a>
+ 
+                                    </h4>
+                                </figcaption>
+                            </figure>
+                            <div class="item-bottom">
+                                 <span class="price "><span class="from"><span>$</span>17.00</span>      <span>-</span>    <span><span class="to">$</span>28.00</span></span>
+                                 <div class="rating ">
+                                     <i class="fas fa-star star1"></i>
+                                     <i class="fas fa-star star2"></i>
+                                     <i class="fas fa-star star3"></i>
+                                     <i class="fas fa-star star4"></i>
+                                     <i class="fas fa-star star5"></i>
+                                 </div>
+                            </div>
+                            
+                        </div>
+                         
+                        <div class="item common-row-item item-pd">
+                            <figure>
+                                <a class="item-imgs" href="#">
+                                    <img class="img1" src="https://the7.io/elementor-shop/wp-content/uploads/sites/79/2020/12/es0051-600x800.jpg">
+                                    <img class="img2" src="https://the7.io/elementor-shop/wp-content/uploads/sites/79/2020/12/es0050-600x800.jpg">  
+                                </a>
+                                <a href="#" class="add-to-cart">
+                                    <span class="add-to-cart-popup">add to cart</span>
+                                    <i class="fas fa-shopping-bag icon"></i>
+                                </a>
+                                <figcaption>
+                                    <h4 class="item-title">
+                                     <a title="Minimalistic lamp" href="#">Minimalistic lamp</a>
+ 
+                                    </h4>
+                                </figcaption>
+                            </figure>
+                            <div class="item-bottom">
+                                 <span class="price "><span>$</span>300.00</span>
+                                 <div class="rating ">
+                                     <i class="fas fa-star star1"></i>
+                                     <i class="fas fa-star star2"></i>
+                                     <i class="fas fa-star star3"></i>
+                                     <i class="fas fa-star star4"></i>
+                                     <i class="fas fa-star star5"></i>
+                                 </div>
+                             </div>
+                            
+                        </div>
+                         
+                        <div class="item common-row-item item-pd">
+                            <figure>
+                                <a class="item-imgs" href="#">
+                                    <img class="img1" src="https://the7.io/elementor-shop/wp-content/uploads/sites/79/2020/12/es0026-600x800.jpg">  
+                                    <img class="img2" src="https://the7.io/elementor-shop/wp-content/uploads/sites/79/2020/12/es00255-600x800.jpg">
+                                </a>
+                                <a href="#" class="add-to-cart">
+                                    <span class="add-to-cart-popup">add to cart</span>
+                                    <i class="fas fa-shopping-bag icon"></i>
+                                </a>
+                                <figcaption>
+                                    <h4 class="item-title">
+                                     <a title="Framed loft lamp" href="#">Framed loft lamp</a>
+ 
+                                    </h4>
+                                </figcaption>
+                            </figure>
+                            <div class="item-bottom">
+                                 <span class="price "><del><span>$</span>300</del><span>$</span>250.00</span>
+                                 <div class="rating ">
+                                     <i class="fas fa-star star1"></i>
+                                     <i class="fas fa-star star2"></i>
+                                     <i class="fas fa-star star3"></i>
+                                     <i class="fas fa-star star4"></i>
+                                     <i class="fas fa-star star5"></i>
+                                 </div>
+                             </div>
+                            
+                        </div>
+
+                        <div class="item common-row-item  item-pd">
+                            <figure>
+                                <a class="item-imgs" href="#">
+                                    <span class="sale"> sale!</span>
+                                    <img class="img1" src="https://the7.io/elementor-shop/wp-content/uploads/sites/79/2020/12/es0030-600x800.jpg"> 
+                                    <img class="img2" src="https://the7.io/elementor-shop/wp-content/uploads/sites/79/2020/12/es0038-600x800.jpg">
+                                </a>
+                                <a href="#" class="add-to-cart">
+                                    <span class="add-to-cart-popup">add to cart</span>
+                                    <i class="fas fa-shopping-bag icon"></i>
+                                </a>
+                                <figcaption>
+                                    <h4 class="item-title">
+                                     <a title="black chair" href="#">black chair</a>
+ 
+                                    </h4>
+                                </figcaption>
+                            </figure>
+                            <div class="item-bottom">
+                                 <span class="price "><span>$</span>90.00</span>
+                                 <div class="rating ">
+                                     <i class="fas fa-star star1"></i>
+                                     <i class="fas fa-star star2"></i>
+                                     <i class="fas fa-star star3"></i>
+                                     <i class="fas fa-star star4"></i>
+                                     <i class="fas fa-star star5"></i>
+                                 </div>
+                             </div>
+                            
+                         </div>
+                         
+
+                      
+                    
+                </div>
+            </div>
+        </section>
+        <section class="Popular-categories common-section">
+            <div class="container">
+                <div class="Popular-categories-content">
+                    <h3 class="popular-categories-heading">Popular categories </h3>
+                    <div class="Popular-categories-item ">
+                        <a href="#" class="item ">
+                            <figure>
+                                <div class="overlay"></div>
+                                <img src="https://the7.io/elementor-shop/wp-content/uploads/sites/79/2020/10/es0045-600x800.jpg">
+                            </figure>
+                            <div class="details-popular">
+                                <span class="title">lighting</span>
+                                <span class="view-items">view items</span>
+                            </div>
+                        </a>
+                        <a href="#" class="item ">
+                            <figure>
+                                <div class="overlay"></div>
+                                <img src="https://the7.io/elementor-shop/wp-content/uploads/sites/79/2020/12/es0038-600x800.jpg">
+                            </figure>
+                            <div class="details-popular">
+                                <span class="title">chairs</span>
+                                <span class="view-items">view items</span>
+                            </div>
+                        </a>
+                        <a href="#" class="item ">
+                            <figure>
+                                <div class="overlay"></div>
+                                <img src="https://the7.io/elementor-shop/wp-content/uploads/sites/79/2020/12/es0068-433x433.jpg">
+                            </figure>
+                            <div class="details-popular">
+                                <span class="title">sofas</span>
+                                <span class="view-items">view items</span>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="Bestsellers common-section ">
+            <div class="container">
+                <h2 class="common-heading">Bestsellers</h2>
+                
+                <div class="Bestsellers-content common-row">
+
+                        <div class="item common-row-item item-pd">
+                           <figure>
+                               <a class="item-imgs" href="#">
+                                    <span class="sale"> sale!</span>
+                                    <img class="img1" src="https://the7.io/elementor-shop/wp-content/uploads/sites/79/2020/12/es00107-600x800.jpg">  
+                                    <img class="img2" src="https://the7.io/elementor-shop/wp-content/uploads/sites/79/2020/12/es0105-600x800.jpg">
+                                    
+                                </a>
+                                <a href="#" class="add-to-cart">
+                                    <span class="add-to-cart-popup">add to cart</span>
+                                    <i class="fas fa-shopping-bag icon"></i>
+                                </a>
+                               
+                               <figcaption>
+                                   <h4 class="item-title">
+                                    <a title="Clay hand-made vase" href="#">Clay hand-made vase</a>
+
+                                   </h4>
+                               </figcaption>
+                           </figure>
+                           <div class="item-bottom">
+                                <span class="price "><span class="from"><span>$</span>18.00</span>    <span>-</span>    <span><span class="to">$</span>25.00</span></span>
+                                <div class="rating ">
+                                    <i class="fas fa-star star1"></i>
+                                    <i class="fas fa-star star2"></i>
+                                    <i class="fas fa-star star3"></i>
+                                    <i class="fas fa-star star4"></i>
+                                    <i class="fas fa-star star5"></i>
+                                </div>
+                            </div>
+                           
+                        </div>
+
+                        
+                        <div class="item common-row-item item-pd">
+                            <figure>
+                                <a class="item-imgs" href="#">
+                                    <img class="img1" src="https://the7.io/elementor-shop/wp-content/uploads/sites/79/2020/12/es0075-600x800.jpg"> 
+                                    <img class="img2" src="https://the7.io/elementor-shop/wp-content/uploads/sites/79/2020/12/es0078-600x800.jpg"> 
+                                </a>
+                                <a href="#" class="add-to-cart">
+                                    <span class="add-to-cart-popup">add to cart</span>
+                                    <i class="fas fa-shopping-bag icon"></i>
+                                </a>
+                                <figcaption>
+                                    <h4 class="item-title">
+                                     <a title="High wooden chairs" href="#">High wooden chairs</a>
+ 
+                                    </h4>
+                                </figcaption>
+                            </figure>
+                            <div class="item-bottom">
+                                 <span class="price "><span>$</span>180.00</span>
+                                <div class="rating ">
+                                     <i class="fas fa-star star1"></i>
+                                     <i class="fas fa-star star2"></i>
+                                     <i class="fas fa-star star3"></i>
+                                     <i class="fas fa-star star4"></i>
+                                     <i class="fas fa-star star5"></i>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="item common-row-item item-pd">
+                            <figure>
+                                <a class="item-imgs" href="#">
+                                    <img class="img1" src="https://the7.io/elementor-shop/wp-content/uploads/sites/79/2020/04/es0028-600x800.jpg">
+                                    <img class="img2" src="https://the7.io/elementor-shop/wp-content/uploads/sites/79/2020/04/es0027-600x800.jpg">  
+                                </a>
+                                <a href="#" class="add-to-cart">
+                                    <span class="add-to-cart-popup">add to cart</span>
+                                    <i class="fas fa-shopping-bag icon"></i>
+                                </a>
+                                <figcaption>
+                                    <h4 class="item-title">
+                                     <a title="Table lamp" href="#">Table lamp</a>
+ 
+                                    </h4>
+                                </figcaption>
+                            </figure>
+                            <div class="item-bottom">
+                                 <span class="price "><span>$</span>35.00</span>
+                                 <div class="rating ">
+                                     <i class="fas fa-star star1"></i>
+                                     <i class="fas fa-star star2"></i>
+                                     <i class="fas fa-star star3"></i>
+                                     <i class="fas fa-star star4"></i>
+                                     <i class="fas fa-star star5"></i>
+                                 </div>
+                            </div>
+                            
+                        </div>
+                        <div class="item common-row-item item-pd">
+                            <figure>
+                                <a class="item-imgs" href="#">
+                                    <span class="sale"> sale!</span>
+                                    <img class="img1" src="https://the7.io/elementor-shop/wp-content/uploads/sites/79/2020/12/es0071-600x800.jpg">  
+                                    <img class="img2" src="https://the7.io/elementor-shop/wp-content/uploads/sites/79/2020/12/es00712-600x800.jpg">
+                                </a>
+                                <a href="#" class="add-to-cart">
+                                    <span class="add-to-cart-popup">add to cart</span>
+                                    <i class="fas fa-shopping-bag icon"></i>
+                                </a>
+                                <figcaption>
+                                    <h4 class="item-title">
+                                     <a title="Cement candle" href="#">Cement candle</a>
+ 
+                                    </h4>
+                                </figcaption>
+                            </figure>
+                            <div class="item-bottom">
+                                 <span class="price "><span class="from"><span>$</span>15.00</span>      <span>-</span>    <span><span class="to">$</span>30.00</span></span>
+                                 <div class="rating ">
+                                     <i class="fas fa-star star1"></i>
+                                     <i class="fas fa-star star2"></i>
+                                     <i class="fas fa-star star3"></i>
+                                     <i class="fas fa-star star4"></i>
+                                     <i class="fas fa-star star5"></i>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="item common-row-item item-pd">
+                            <figure>
+                                <a class="item-imgs" href="#">
+                                    <img class="img1" src="https://the7.io/elementor-shop/wp-content/uploads/sites/79/2020/12/es0030-600x800.jpg"> 
+                                    <img class="img2" src="https://the7.io/elementor-shop/wp-content/uploads/sites/79/2020/12/es0038-600x800.jpg">
+                                </a>
+                                <a href="#" class="add-to-cart">
+                                    <span class="add-to-cart-popup">add to cart</span>
+                                    <i class="fas fa-shopping-bag icon"></i>
+                                </a>
+                                <figcaption>
+                                    <h4 class="item-title">
+                                     <a title="black chair" href="#">black chair</a>
+ 
+                                    </h4>
+                                </figcaption>
+                            </figure>
+                            <div class="item-bottom">
+                                 <span class="price "><span>$</span>90.00</span>
+                                 <div class="rating ">
+                                     <i class="fas fa-star star1"></i>
+                                     <i class="fas fa-star star2"></i>
+                                     <i class="fas fa-star star3"></i>
+                                     <i class="fas fa-star star4"></i>
+                                     <i class="fas fa-star star5"></i>
+                                </div>
+                            </div>
+                            
+                         </div>
+                         
+
+                      
+                    
+                </div>
+            </div>
+        </section>
+        <section class="our-blog common-section">
+            <div class="container">
+                <h2 class="common-heading">from our blog</h2>
+                <div class="our-blog-container">
+                    <div class="our-blog-item item-pd">
+                        <figure class="our-blog-figure">
+                            <a href="#">
+                                <img src="images/fashion-1031469_1920.jpg">
+                            </a>
+                        </figure>
+                        <div class="our-blog-detials">
+                            <div class="entry-meta">
+                                <a href="#">
+                                    <time datetime="2021-7-3">July 3, 2021</time>
+                                </a>
+                                <a href="#" class="comments"> <span class="comments-count">0</span>comments</a>
+                            </div>
+                            
+                            <h3 class="entry-title" >
+                                <a class="our-blog-title"  href="#">
+                                        Lorem, ipsum dolor.
+                                </a>
+                            </h3>
+                            <a href="#" class="continue-reading"> continue reading </a>
+                            
+                        </div>
+                    </div>
+
+                    <div class="our-blog-item item-pd">
+                        <figure class="our-blog-figure">
+                            <a href="#">
+                                <img src="images/coffee-2306471_640.jpg">
+                            </a>
+                        </figure>
+                        <div class="our-blog-detials">
+                            <div class="entry-meta">
+                                <a href="#">
+                                    <time datetime="2021-7-3">July 5, 2021</time>
+                                </a>
+                                <a href="#" class="comments"> <span class="comments-count">2</span>comments</a>
+                            </div>
+                            
+                            <h3 class="entry-title" >
+                                <a class="our-blog-title"  href="#">
+                                    Lorem ipsum dolor sit.  
+                                </a>
+                            </h3>
+                            <a href="#" class="continue-reading"> continue reading </a>
+                            
+                        </div>
+                    </div>
+                    <div class="our-blog-item item-pd">
+                        <figure class="our-blog-figure">
+                            <a href="#">
+                                <img src="images/house-1477041_1280.jpg">
+                            </a>
+                        </figure>
+                        <div class="our-blog-detials">
+                            <div class="entry-meta">
+                                <a href="#">
+                                    <time datetime="2021-7-3">July 3, 2021</time>
+                                </a>
+                                <a href="#" class="comments"> <span class="comments-count">5</span>comments</a>
+                            </div>
+                            
+                            <h3 class="entry-title" >
+                                <a class="our-blog-title"  href="#">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing.
+                                </a>
+                            </h3>
+                            <a href="#" class="continue-reading"> continue reading </a>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="icons">
+            <div class="container">
+                <div class="icons-container">
+                    <div class="box-icon">
+                        <i class="fas fa-money-check-alt icon-of-box-icon"></i>
+                        <span class="box-icon-title">Secure payments</span>
+                        <span class="box-icon-desc">Payment methods</span>
+                    </div>
+                    <div class="box-icon">
+                        <i class="far fa-life-ring icon-of-box-icon"></i>
+                        <span class="box-icon-title">Customer support</span>
+                        <span class="box-icon-desc">24/7 amazing services</span>
+                    </div>
+                    <div class="box-icon">
+                        <i class="fas fa-undo icon-of-box-icon"></i>
+                        <span class="box-icon-title">30 days return period</span>
+                        <span class="box-icon-desc">Returns & refunds</span>
+                    </div>
+                    <div class="box-icon">
+                        <i    class="fas fa-shipping-fast icon-of-box-icon"></i>
+                        <span class="box-icon-title">Free Shipping</span>
+                        <span class="box-icon-desc">Shipping details</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe-seaction">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="subscribe-container">
+                    <h3 class="subscribe-title">
+                        Get The Latest Deals
+                    </h3>
+                    <span class="subscribe-under-title">and receive $20 coupon for first shopping</span>
+                    <div class="row" >
+                        <form action="#">
+                            <div class="form-group">
+                                <input placeholder="Enter your Email Address" type="email" class="form-control" required>
+                                <button type="submit" class="btn-style3">
+                                    subscribe <i class="fas fa-arrow-right arrow-right"></i>
+                                </button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <section class="top-footer">
+                    <div class="footer-Customer-support">
+                        <h3 class="footer-heading">Customer support </h3>
+                        <span class="footer-Customer-support-tel">0127 396 8617</span>
+                        <span class="footer-Customer-support-date">Mon. - Fri. 10:00 - 20:00</span>
+                        <ul class="footer-social">
+                            <li> 
+                                <a href="#">
+                                    <i class="fab fa-facebook-f icon"></i>
+                                </a>
+                            </li>
+                            <li> 
+                                <a href="#">
+                                    <i class="fab fa-instagram icon"></i>
+                                </a>
+                            </li>
+                            <li> 
+                                <a href="#">
+                                    <i class="fab fa-twitter icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-youtube icon" ></i>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="top-footer-list">
+                        <div class="top-footer-list-menu">
+                            <h3 class="footer-heading">About shop</h3>
+                            <ul class="footer-buttons">
+                                <li>
+                                    <a href="#">About</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog</a>
+                                </li>
+                                 <li>
+                                    <a href="#">Sitemap</a>
+                                </li>
+                            </ul>
+    
+    
+                        </div>
+                        <div class="top-footer-list-menu">
+                            <h3 class="footer-heading">Customer Service</h3>
+                            <ul class="footer-buttons">
+                                <li>
+                                    <a href="#">Payment</a>
+                                </li>
+                                <li>
+                                    <a href="#">Delivery</a>
+                                </li>
+                                <li>
+                                    <a href="#">Order tracking</a>
+                                </li>
+                                 <li>
+                                    <a href="#">Exchanges & returns</a>
+                                </li>
+                                <li>
+                                    <a href="#">Terms & Conditions</a>
+                                </li>
+                            </ul>
+    
+    
+                        </div>
+                        <div class="top-footer-list-menu">
+                            <h3 class="footer-heading">Catalogue</h3>
+                            <ul class="footer-buttons">
+                                <li>
+                                    <a href="#">New incomes</a>
+                                </li>
+                                <li>
+                                    <a href="#">Bestsellers</a>
+                                </li>
+                                <li>
+                                    <a href="#">sale</a>
+                                </li>
+                                 <li>
+                                    <a href="#">size guide</a>
+                                </li>
+                            </ul>
+    
+    
+                        </div>
+                    </div>
+                </section>
+
+                <section class="bottom-footer">
+                    <div class="bottom-footer-container">
+                        <div class="bottom-footer-copyright">
+                            <p>Copyright © 2021 MYShop. All Rights Reserved.</p>
+                        </div>
+                        <figure class="bootm-footer-payments">
+                            <img src="images/payments.png" alt="payments">
+                        </figure>
+                    </div>
+                </section>
+            </div>
+        </footer>
+
+
+    </div>
+
+
+
+
+
+     <div class="mobile-menu-container">
+        <input type="checkbox" id="check" >
+        <div class="mobile-menu">
+            <label class="close" for="check" >
+                <i class="fas fa-times"></i>
+            </label>
+
+
+            <div class=" mobile-search">
+                <form action="#" class="mobile-search-form">
+                    <input type="search" name="search" placeholder="search product ..." required >
+                    <button type="submit" id > 
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+
+            
+            <nav class="mobile-nav">
+                <ul>
+                    <li><a href="index.html" style="color: var(--main-color)">Home</a></li>
+                    <li><a href="Shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="Login.html">login</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>       
+
+
+    
+</body>
+</html>

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="shortcut icon" href="images/logo.png"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <script src="html5shiv.min.js"></script>
+</head>
+<body>
+    <div class="page-wrapper">
+        <header>
+            <section class="top-header pd-section">
+                <div class="container">
+                    <div class="top-header-content">
+                        <P class="cust-support">Customer support: 01273968617 </P>
+                        <div class="top-menu">
+                            <a class="linkes" href="#">linkes <i class="fas fa-chevron-down"></i> </a>
+                            <ul>
+                                <li>
+                                    <div class="header-dropdown">
+                                        <a href="#">USD <i class="fas fa-chevron-down"></i></a>
+                                        <ul class="header-menu">
+                                            <li>
+                                                <a href="#">Eur</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Usd</a>
+                                            </li>
+        
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="header-dropdown">
+                                        <a href="#">English <i class="fas fa-chevron-down"></i></a>
+                                        <ul class="header-menu">
+                                            <li>
+                                                <a href="#">English</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Arabic</a>
+                                            </li>
+        
+                                        </ul>
+                                    </div>
+                                
+                                </li>
+                                <li>
+                                <a class="sign" href="Login.html">Sign in / Sign Up</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="middle-header pd-section">
+                <div class="container">
+                    <div class="middle-header-content">
+                      
+                        <div id="logo">
+                            <label class="open" for="check">
+                                <i class="fas fa-bars"></i>
+                            </label>
+                        <a href="index.html">
+                            <figure>
+                                <img src="images/logo.png" alt="My Shop">
+                            </figure> 
+                        </a>
+                        </div>
+
+                        <div class="header-search">
+                            <form action="#" class="search-form">
+                                <input type="search" name="search" placeholder="search product ..." required >
+                                <button type="submit" id > 
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+
+                        <div class="middle-header-right">
+                            <ul>
+                                <li class="account">
+                                    <a href="#">
+                                        <div class="icon">
+                                        <i class="far fa-user"></i>
+                                        </div> 
+                                        <p>account</p>
+                                    </a>
+
+                                </li>
+                                <li class="wishlist">
+                                    <a href="#">
+                                        <div class="icon">
+                                            <i class="far fa-heart"></i>
+                                            <span class="wishlist-count">0</span>
+                                        </div>
+                                        <p>wishlist</p>
+                                    </a>
+
+                                </li>
+                                <li class="cart">
+                                    <a href="#">
+                                        <div class="icon">
+
+                                            <i class="fas fa-shopping-bag"></i>
+                                        
+                                            <span class="cart-count">0</span>
+
+                                        </div> 
+
+                                        <p>cart</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="bottom-header pd-section">
+                <div class="container">
+                    <div class="bottom-header-content">
+                        <div class="category-dropdown">
+                            <a class="browse-categories" href="#"><i class="fas fa-bars"></i>browse categories </a>
+                            <ul class="dropdown-menu">
+                        
+                                <li><a href="Shop/furniture.html">furniture</a></li>
+                                <li><a href="Shop/Home decor.html">home decor</a></li>
+                                <li><a href="Shop/furniture/sofa.html">sofa</a></li>
+                                <li><a href="Shop/Home decor/Lighting.html">Lighting</a></li>
+                                <li><a href="Shop/furniture/chair.html">chair</a></li>
+                               
+                            
+                            </ul>
+                        </div>
+                    
+                    
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="Shop.html">Shop</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="Login.html" style="color: var(--main-color)">login</a></li>
+                            </ul>
+                        </nav>
+
+
+                    </div>
+                </div>
+            </section>
+
+
+        </header>
+        <section class="login-register">
+            <div class="container">
+                <div class="login-register-content">
+                    <div class=" login login-register-container">
+                        <h4 class="form-heading">login</h4>
+                        <form action="#" class="login-form">
+                            <div class="input-group">
+                                <label for="username" class="common-label">
+                                    Username or email address <span class="required-mark">*</span> 
+                                </label>
+                                <input type="text" id="username" class="common-input" required>
+                            </div>
+                            <div  class="input-group">
+                                <label for="password" class="common-label">
+                                    password <span class="required-mark">*</span> 
+                                </label>
+                                <input type="password" id="password" class="common-input" required>
+                            </div>
+                            <button class="btn-style2">log in</button>
+                        </form>
+
+                    </div>
+
+
+
+                    <div class="register login-register-container">
+                        <h4 class="form-heading">register</h4>
+                        <form action="#" class="login-form">
+                            <div class="input-group">
+                                <label for="email" class="common-label">
+                                    email address <span class="required-mark">*</span> 
+                                </label>
+                                <input type="email" id="email" class="common-input" required>
+                                <p>A password will be sent to your email address.</p>
+                            </div>
+                        
+                            <button class="btn-style2">register</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <section class="top-footer">
+                    <div class="footer-Customer-support">
+                        <h3 class="footer-heading">Customer support </h3>
+                        <span class="footer-Customer-support-tel">0127 396 8617</span>
+                        <span class="footer-Customer-support-date">Mon. - Fri. 10:00 - 20:00</span>
+                        <ul class="footer-social">
+                            <li> 
+                                <a href="#">
+                                    <i class="fab fa-facebook-f icon"></i>
+                                </a>
+                            </li>
+                            <li> 
+                                <a href="#">
+                                    <i class="fab fa-instagram icon"></i>
+                                </a>
+                            </li>
+                            <li> 
+                                <a href="#">
+                                    <i class="fab fa-twitter icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-youtube icon" ></i>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="top-footer-list">
+                        <div class="top-footer-list-menu">
+                            <h3 class="footer-heading">About shop</h3>
+                            <ul class="footer-buttons">
+                                <li>
+                                    <a href="#">About</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog</a>
+                                </li>
+                                 <li>
+                                    <a href="#">Sitemap</a>
+                                </li>
+                            </ul>
+    
+    
+                        </div>
+                        <div class="top-footer-list-menu">
+                            <h3 class="footer-heading">Customer Service</h3>
+                            <ul class="footer-buttons">
+                                <li>
+                                    <a href="#">Payment</a>
+                                </li>
+                                <li>
+                                    <a href="#">Delivery</a>
+                                </li>
+                                <li>
+                                    <a href="#">Order tracking</a>
+                                </li>
+                                 <li>
+                                    <a href="#">Exchanges & returns</a>
+                                </li>
+                                <li>
+                                    <a href="#">Terms & Conditions</a>
+                                </li>
+                            </ul>
+    
+    
+                        </div>
+                        <div class="top-footer-list-menu">
+                            <h3 class="footer-heading">Catalogue</h3>
+                            <ul class="footer-buttons">
+                                <li>
+                                    <a href="#">New incomes</a>
+                                </li>
+                                <li>
+                                    <a href="#">Bestsellers</a>
+                                </li>
+                                <li>
+                                    <a href="#">sale</a>
+                                </li>
+                                 <li>
+                                    <a href="#">size guide</a>
+                                </li>
+                            </ul>
+    
+    
+                        </div>
+                    </div>
+                </section>
+
+                <section class="bottom-footer">
+                    <div class="bottom-footer-container">
+                        <div class="bottom-footer-copyright">
+                            <p>Copyright © 2021 MYShop. All Rights Reserved.</p>
+                        </div>
+                        <figure class="bootm-footer-payments">
+                            <img src="images/payments.png" alt="payments">
+                        </figure>
+                    </div>
+                </section>
+            </div>
+        </footer>
+
+
+    </div>
+
+
+
+
+
+     <div class="mobile-menu-container">
+        <input type="checkbox" id="check" >
+        <div class="mobile-menu">
+            <label class="close" for="check" >
+                <i class="fas fa-times"></i>
+            </label>
+
+
+            <div class=" mobile-search">
+                <form action="#" class="mobile-search-form">
+                    <input type="search" name="search" placeholder="search product ..." required >
+                    <button type="submit" id > 
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+
+            
+            <nav class="mobile-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="Login.html" style="color: var(--main-color)">login</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>       
+
+
+    
+</body>
+</html>
