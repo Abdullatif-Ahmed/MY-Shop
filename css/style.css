@@ -21,7 +21,7 @@ body {
   --gray: #777;
 }
 
-/*////////////////////////////common//////////////////////////////////*/
+/*/ ///////////////////////////common//////////////////////////////////*/
 
 .container {
   margin: 0 auto;
@@ -259,8 +259,34 @@ img {
   padding-left: 6px;
   cursor: default;
 }
-
-/*////////////////////////////top-header//////////////////////////////////*/
+.up {
+  position: fixed;
+  right: 20px;
+  bottom: -70px;
+  color: #1f93ad;
+  background-color: var(--main-color);
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  z-index: 1000;
+  font-size: 32px;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  opacity: 0;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  cursor: pointer;
+}
+.show {
+  opacity: 1 !important;
+  bottom: 20px !important;
+}
+/*/ ///////////////////////////top-header//////////////////////////////////*/
 
 .top-header {
   background-color: #f1f3f4;
@@ -520,7 +546,59 @@ img {
 .bottom-header {
   background-color: white;
   display: none;
-  min-height: 52px;
+  min-height: 55px;
+  width: 100%;
+}
+
+.header-fixed {
+  position: fixed;
+  animation: fixed 0.3s ease-in-out 1 normal forwards;
+  -o-animation: fixed 0.3s ease-in-out 1 normal forwards;
+  -moz-animation: fixed 0.3s ease-in-out 1 normal forwards;
+  -webkit-animation: fixed 0.3s ease-in-out 1 normal forwards;
+  z-index: 2000;
+  box-shadow: 0 3px 6px rgb(51 51 51 / 5%);
+  -webkit-box-shadow: 0 3px 6px rgb(51 51 51 / 5%);
+}
+@keyframes fixed {
+  0% {
+    top: -55px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+@-o-keyframes fixed {
+  0% {
+    top: -55px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+@-moz-keyframes fixed {
+  0% {
+    top: -55px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fixed {
+  0% {
+    top: -55px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
 }
 
 .bottom-header-content {
@@ -533,7 +611,7 @@ img {
 .bottom-header-content a {
   color: var(--secoundery-color);
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
 }
 .bottom-header-content .category-dropdown {
   width: 270px;
@@ -776,7 +854,7 @@ nav ul li a:hover::before {
   border-top: none;
 }
 
-/*/////////////////////////////////////////home-slider///////////////////////////*/
+/*/ ////////////////////////////////////////home-slider///////////////////////////*/
 .home-slider {
   position: relative;
 }
@@ -917,7 +995,7 @@ nav ul li a:hover::before {
 .collection-item:hover {
   background-size: 120%;
 }
-/*////////////////////////new-items/////////////////////////////*/
+/*/ ///////////////////////new-items/////////////////////////////*/
 
 .rating i {
   color: var(--main-color);
@@ -1020,7 +1098,7 @@ nav ul li a:hover::before {
 .Popular-categories-item .item:hover figure .overlay {
   opacity: 1;
 }
-/*//////////////////////////////////////Bestsellers////////////////////////////////////*/
+/*/ /////////////////////////////////////Bestsellers////////////////////////////////////*/
 
 .Bestsellers-content div .rating i {
   color: var(--main-color);
@@ -1118,7 +1196,7 @@ nav ul li a:hover::before {
   -webkit-box-shadow: 0 1px 0 0 var(--main-color);
 }
 
-/*//////////////////////////////////////icons////////////////////////////////*/
+/*/ /////////////////////////////////////icons////////////////////////////////*/
 
 .icons {
   width: 100%;
@@ -1263,7 +1341,7 @@ nav ul li a:hover::before {
   background-color: var(--main-color);
   color: white;
 }
-/*//////////////////////////////////////////////footer/////////////////////////////*/
+/*/ /////////////////////////////////////////////footer/////////////////////////////*/
 footer {
   background-color: #f1f3f4;
 }
@@ -1511,7 +1589,7 @@ footer {
   color: #c1c0c0;
 }
 
-/*/////////////////////////////////////////login-page//////////////////////////////////////*/
+/*/ ////////////////////////////////////////login-page//////////////////////////////////////*/
 
 .login-register {
   padding: 91px 33px;
@@ -1658,7 +1736,7 @@ footer {
   margin: 0 auto;
 }
 
-/*//////////////////////////////////////////////// blog-page//////////////////////////////////*/
+/*/ /////////////////////////////////////////////// blog-page//////////////////////////////////*/
 .blog {
   padding: 65px 15px;
 }
