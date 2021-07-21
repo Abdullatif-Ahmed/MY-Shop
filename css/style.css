@@ -32,6 +32,8 @@ body {
 a {
   text-decoration: none;
   color: var(--secoundery-color);
+  user-select: none;
+  -webkit-user-select: none;
 }
 ul {
   list-style: none;
@@ -420,6 +422,7 @@ img {
 .middle-header-content #logo img {
   width: 100%;
   height: 100%;
+  -webkit-user-drag: none;
 }
 
 .header-search {

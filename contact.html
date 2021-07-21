@@ -177,21 +177,21 @@
 
 
                 <div class="contact-form">
-                    <form action="#" class="form-group-control">
+                    <form action="process.php" class="form-group-control" method="POST">
                         <div class="col-1">
-                            <input type="text" class="input-control" placeholder="Name *" required>
+                            <input type="text" name="name" class="input-control" placeholder="Name *" >
                         </div>
                         <div class="col-1">
-                            <input type="email" class="input-control" placeholder="Email *" required>
+                            <input type="email" name="email" class="input-control" placeholder="Email *" >
                         </div>
                         <div class="col-1">
-                            <input type="tel" class="input-control" placeholder="Phone" required>
+                            <input type="tel" class="input-control" placeholder="Phone" >
                         </div>
                         <div class="col-1">
-                            <input type="text" class="input-control" placeholder="Subject" required>
+                            <input type="text" class="input-control" placeholder="Subject" >
                         </div>
                         <div class="col-2"> 
-                            <textarea name="text" id="" cols="30" rows="10" class="input-control" required placeholder="Message *"></textarea>
+                            <textarea name="msg"  cols="30" rows="10" class="input-control"  placeholder="Message *"></textarea>
                         </div>
                         <button class="btn-style2">Send message</button>
                     </form>
