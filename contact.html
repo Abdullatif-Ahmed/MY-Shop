@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/media.css">
-    <link rel="shortcut icon" href="images/logo.png"/>
+    <link rel="shortcut icon" href="images/logo.png" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500&display=swap"
+        rel="stylesheet">
     <script src="html5shiv.min.js"></script>
 </head>
+
 <body>
     <div class="page-wrapper">
         <header>
@@ -34,7 +37,7 @@
                                             <li>
                                                 <a href="#">Usd</a>
                                             </li>
-        
+
                                         </ul>
                                     </div>
                                 </li>
@@ -48,13 +51,13 @@
                                             <li>
                                                 <a href="#">Arabic</a>
                                             </li>
-        
+
                                         </ul>
                                     </div>
-                                
+
                                 </li>
                                 <li>
-                                <a class="sign" href="Login.html">Sign in / Sign Up</a>
+                                    <a class="sign" href="Login.html">Sign in / Sign Up</a>
                                 </li>
                             </ul>
                         </div>
@@ -65,22 +68,22 @@
             <section class="middle-header pd-section">
                 <div class="container">
                     <div class="middle-header-content">
-                      
+
                         <div id="logo">
                             <label class="open" for="check">
                                 <i class="fas fa-bars"></i>
                             </label>
-                        <a href="index.html">
-                            <figure>
-                                <img src="images/logo.png" alt="My Shop">
-                            </figure> 
-                        </a>
+                            <a href="index.html">
+                                <figure>
+                                    <img src="images/logo.png" alt="My Shop">
+                                </figure>
+                            </a>
                         </div>
 
                         <div class="header-search">
                             <form action="#" class="search-form">
-                                <input type="search" name="search" placeholder="search product ..." required >
-                                <button type="submit" id > 
+                                <input type="search" name="search" placeholder="search product ..." required>
+                                <button type="submit" id>
                                     <i class="fas fa-search"></i>
                                 </button>
                             </form>
@@ -91,8 +94,8 @@
                                 <li class="account">
                                     <a href="#">
                                         <div class="icon">
-                                        <i class="far fa-user"></i>
-                                        </div> 
+                                            <i class="far fa-user"></i>
+                                        </div>
                                         <p>account</p>
                                     </a>
 
@@ -112,10 +115,10 @@
                                         <div class="icon">
 
                                             <i class="fas fa-shopping-bag"></i>
-                                        
+
                                             <span class="cart-count">0</span>
 
-                                        </div> 
+                                        </div>
 
                                         <p>cart</p>
                                     </a>
@@ -132,18 +135,18 @@
                         <div class="category-dropdown">
                             <a class="browse-categories" href="#"><i class="fas fa-bars"></i>browse categories </a>
                             <ul class="dropdown-menu">
-                        
+
                                 <li><a href="Shop/furniture.html">furniture</a></li>
                                 <li><a href="Shop/Home decor.html">home decor</a></li>
                                 <li><a href="Shop/furniture/sofa.html">sofa</a></li>
                                 <li><a href="Shop/Home decor/Lighting.html">Lighting</a></li>
                                 <li><a href="Shop/furniture/chair.html">chair</a></li>
-                               
-                            
+
+
                             </ul>
                         </div>
-                    
-                    
+
+
                         <nav>
                             <ul>
                                 <li><a href="index.html">Home</a></li>
@@ -176,22 +179,23 @@
 
 
 
-                <div class="contact-form">
-                    <form action="process.php" class="form-group-control" method="POST">
+                <div class="#">
+                    <form action="php/send_mail.php" class="form-group-control" method="POST">
                         <div class="col-1">
-                            <input type="text" name="name" class="input-control" placeholder="Name *" >
+                            <input type="text" name="contact_name" class="input-control" placeholder="Name *">
                         </div>
                         <div class="col-1">
-                            <input type="email" name="email" class="input-control" placeholder="Email *" >
+                            <input type="email" name="contact_email" class="input-control" placeholder="Email *">
                         </div>
                         <div class="col-1">
-                            <input type="tel" class="input-control" placeholder="Phone" >
+                            <input name="contact_phone" type="tel" class="input-control" placeholder="Phone">
                         </div>
                         <div class="col-1">
-                            <input type="text" class="input-control" placeholder="Subject" >
+                            <input type="text" class="input-control" placeholder="Subject">
                         </div>
-                        <div class="col-2"> 
-                            <textarea name="msg"  cols="30" rows="10" class="input-control"  placeholder="Message *"></textarea>
+                        <div class="col-2">
+                            <textarea name="contact_message" cols="30" rows="10" class="input-control"
+                                placeholder="Message *"></textarea>
                         </div>
                         <button class="btn-style2">Send message</button>
                     </form>
@@ -199,13 +203,13 @@
 
 
 
-        
+
             </div>
-            
+
         </section>
 
-       
-      
+
+
         <footer>
             <div class="container">
                 <section class="top-footer">
@@ -214,27 +218,27 @@
                         <span class="footer-Customer-support-tel">0127 396 8617</span>
                         <span class="footer-Customer-support-date">Mon. - Fri. 10:00 - 20:00</span>
                         <ul class="footer-social">
-                            <li> 
+                            <li>
                                 <a href="#">
                                     <i class="fab fa-facebook-f icon"></i>
                                 </a>
                             </li>
-                            <li> 
+                            <li>
                                 <a href="#">
                                     <i class="fab fa-instagram icon"></i>
                                 </a>
                             </li>
-                            <li> 
+                            <li>
                                 <a href="#">
                                     <i class="fab fa-twitter icon"></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <i class="fab fa-youtube icon" ></i>
+                                    <i class="fab fa-youtube icon"></i>
                                 </a>
                             </li>
-                            
+
                         </ul>
                     </div>
                     <div class="top-footer-list">
@@ -250,12 +254,12 @@
                                 <li>
                                     <a href="blog.html">Blog</a>
                                 </li>
-                                 <li>
+                                <li>
                                     <a href="#">Sitemap</a>
                                 </li>
                             </ul>
-    
-    
+
+
                         </div>
                         <div class="top-footer-list-menu">
                             <h3 class="footer-heading">Customer Service</h3>
@@ -269,15 +273,15 @@
                                 <li>
                                     <a href="#">Order tracking</a>
                                 </li>
-                                 <li>
+                                <li>
                                     <a href="#">Exchanges & returns</a>
                                 </li>
                                 <li>
                                     <a href="#">Terms & Conditions</a>
                                 </li>
                             </ul>
-    
-    
+
+
                         </div>
                         <div class="top-footer-list-menu">
                             <h3 class="footer-heading">Catalogue</h3>
@@ -291,12 +295,12 @@
                                 <li>
                                     <a href="#">sale</a>
                                 </li>
-                                 <li>
+                                <li>
                                     <a href="#">size guide</a>
                                 </li>
                             </ul>
-    
-    
+
+
                         </div>
                     </div>
                 </section>
@@ -324,24 +328,24 @@
 
 
 
-     <div class="mobile-menu-container">
-        <input type="checkbox" id="check" >
+    <div class="mobile-menu-container">
+        <input type="checkbox" id="check">
         <div class="mobile-menu">
-            <label class="close" for="check" >
+            <label class="close" for="check">
                 <i class="fas fa-times"></i>
             </label>
 
 
             <div class=" mobile-search">
                 <form action="#" class="mobile-search-form">
-                    <input type="search" name="search" placeholder="search product ..." required >
-                    <button type="submit" id > 
+                    <input type="search" name="search" placeholder="search product ..." required>
+                    <button type="submit" id>
                         <i class="fas fa-search"></i>
                     </button>
                 </form>
             </div>
 
-            
+
             <nav class="mobile-nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -353,9 +357,10 @@
             </nav>
 
         </div>
-    </div>       
+    </div>
 
 
     <script src="main.js"></script>
 </body>
+
 </html>
