@@ -1,3 +1,6 @@
+var mixer = mixitup('.products-content');
+
+
 let button_up = document.querySelector(".up");
 let fixed = document.querySelector(".bottom-header");
 

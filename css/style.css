@@ -668,11 +668,11 @@ img {
   flex-direction: column;
   visibility: hidden;
   opacity: 0;
-  transition: all 0.2s linear;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -ms-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
+  transition: all 0.1s linear;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
 }
 .dropdown-menu li a {
   display: block;
@@ -1640,27 +1640,29 @@ footer {
 .shop-sidebar-heading {
   color: #222;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 33px;
   margin-bottom: 20px;
 }
 .categori-collection {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 400;
 }
 
 .categori-collection .count {
   color: rgb(212, 211, 211);
 }
-.categori-collection a {
+.shop-sidebar li {
   color: #606060;
-  display: inline-block;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
+  cursor: pointer;
 }
 .group-categori {
   margin-left: 21px;
 }
 .general-categories,
-.group-categori-item a {
+.group-categori-item {
+  margin-bottom: 20px;
+
   font-weight: 500;
   transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
@@ -1669,7 +1671,7 @@ footer {
   -o-transition: all 0.2s linear;
 }
 .general-categories:hover,
-.group-categori-item a:hover {
+.group-categori-item:hover {
   color: var(--main-color);
 }
 
